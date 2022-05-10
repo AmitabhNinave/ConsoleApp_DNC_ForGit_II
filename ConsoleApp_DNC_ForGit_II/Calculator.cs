@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_DNC_ForGit_II
 {
-    class Calculator
+    public class Calculator
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int DesignationId { get; set; }
+        public int DepartmentId { get; set; }
 
     }
 }
